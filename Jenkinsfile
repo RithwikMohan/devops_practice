@@ -22,7 +22,7 @@ pipeline {
         stage('Run') {
             steps {
                 bat """
-                java -cp out Calculator
+                java -cp out calac
                 echo Build_OK > artifact.txt
                 """
             }
